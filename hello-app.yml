@@ -13,4 +13,4 @@ management:
         include: info, health, refresh
 
 hello-app:
-  message: Spring Boot Rules! Actuator Actuator!
+  message: Spring Boot Rules! Actuator, Actuator, may you refresh your clients?
