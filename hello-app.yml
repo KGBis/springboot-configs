@@ -1,7 +1,6 @@
 spring:
   application:
     name: hello-app
-  thymeleaf.cache: false
   main.banner-mode: console
 
 server:
@@ -11,7 +10,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: health, refresh
 
 hello-app:
   message: Spring boot rules!
