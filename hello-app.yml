@@ -13,4 +13,4 @@ management:
         include: info, health, refresh
 
 hello-app:
-  message: Spring Boot Rules! Actuator endpoint 'refresh' is refreshing this message
+  message: Spring Boot Rules! Kike!
