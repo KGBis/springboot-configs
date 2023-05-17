@@ -14,4 +14,4 @@ management:
 
 hello-app:
   #message: Spring Boot Rules! Actuator, Actuator, may you refresh your clients? I'll do it!
-  message: Fine
+  message: Fine, after http://localhost:8080/actuator/refresh is called you'll see this
