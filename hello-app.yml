@@ -10,7 +10,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: info, health, refresh
+        include: '*'
 
 hello-app:
   #message: Spring Boot Rules! Actuator, Actuator, may you refresh your clients? I'll do it!
