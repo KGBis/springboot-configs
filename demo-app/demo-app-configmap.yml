@@ -22,5 +22,5 @@ data:
           application: ${spring.application.name}
 
     demo-app:
-      message: "Si se usan 'comillas', hay que entrecomillar todo, si no, casca!"
+      message: nuevo mensaje
 
