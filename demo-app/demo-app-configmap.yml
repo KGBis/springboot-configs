@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-app-service
+  labels:
+    spring.cloud.kubernetes.config: "true"
+data:
+  application.yaml: |-
+    server:
+      port: 8080
+
+    logging:
+      level:
+        org.springframework.cloud.kubernetes: INFO
+    
+    management:
+      endpoints:
+        web:
+          exposure:
+            include: info, refresh, health
+        tags:
+          application: ${spring.application.name}
+
+    demo-app:
+      message: "Si se usan 'comillas', hay que entrecomillar todo, si no, casca!"
+
